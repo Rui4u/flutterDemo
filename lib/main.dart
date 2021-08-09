@@ -9,6 +9,7 @@ import 'day04/04_WidgetDemo.dart';
 import 'day05/ImageDemo.dart';
 import 'day05/TextFiledDemo.dart';
 import 'day06/LayoutWidget.dart';
+import 'day08/RequestDemo.dart';
 
 // 调用runapp函数
 main() => runApp(SRApp());
@@ -44,12 +45,13 @@ class SRHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Color(0xFF00b38a),
-          title: Text("拉勾招聘"),
-        )
-        ,
-      body: ListViewDemo(),
+        // appBar: AppBar(
+        //   backgroundColor: Color(0xFF00b38a),
+        //   title: Text("拉勾招聘"),
+        // )
+        // ,
+      body:RequestDemoWidget(),
+      // body: ListViewDemo(),
       // body:ListView(
       //   children: [
       //     LayoutDemo(),
